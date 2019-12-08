@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab32786-12d7-4892-80a0-bc50e4fbd8df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/msb/han/juc/test02/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/msb/han/juc/test02/T04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/msb/han/juc/test02/T05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/msb/han/juc/test02/T06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/msb/han/juc/test02/T07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/msb/han/juc/test02/T03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/msb/han/juc/test02/T03.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +49,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+            <state relative-caret-position="342">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T04.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T05.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T06.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T07.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -72,14 +131,18 @@
         <option value="$PROJECT_DIR$/src/com/msb/han/juc/test02/T_synchronized01.java" />
         <option value="$PROJECT_DIR$/src/com/msb/han/juc/test02/T02.java" />
         <option value="$PROJECT_DIR$/src/com/msb/han/juc/test02/T03.java" />
+        <option value="$PROJECT_DIR$/src/com/msb/han/juc/test02/T04.java" />
+        <option value="$PROJECT_DIR$/src/com/msb/han/juc/test02/Account.java" />
+        <option value="$PROJECT_DIR$/src/com/msb/han/juc/test02/T05.java" />
+        <option value="$PROJECT_DIR$/src/com/msb/han/juc/test02/T06.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="235" />
-    <option name="y" value="223" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="230" />
+    <option name="y" value="239" />
+    <option name="width" value="1402" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -87,7 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,25 +169,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="juc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JUCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUCTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="test01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUCTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUCTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="test02" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JUC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +215,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T03">
+  <component name="RunManager" selected="Application.T06">
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.han.juc.test02.Account" />
+      <module name="JUCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.han.juc.test02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="T03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.msb.han.juc.test02.T03" />
       <module name="JUCTest" />
@@ -152,12 +242,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.msb.han.juc.test01.ThreadState" />
+    <configuration name="T04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.han.juc.test02.T04" />
       <module name="JUCTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.msb.han.juc.test01.*" />
+          <option name="PATTERN" value="com.msb.han.juc.test02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.han.juc.test02.T05" />
+      <module name="JUCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.han.juc.test02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msb.han.juc.test02.T06" />
+      <module name="JUCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msb.han.juc.test02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,8 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T06" />
+        <item itemvalue="Application.T05" />
+        <item itemvalue="Application.Account" />
+        <item itemvalue="Application.T04" />
         <item itemvalue="Application.T03" />
-        <item itemvalue="Application.ThreadState" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +303,8 @@
       <updated>1575557948246</updated>
       <workItem from="1575557952706" duration="777000" />
       <workItem from="1575692425491" duration="12673000" />
-      <workItem from="1575793990300" duration="547000" />
+      <workItem from="1575793990300" duration="8984000" />
+      <workItem from="1575816039814" duration="1442000" />
     </task>
     <task id="LOCAL-00001" summary="sdfs">
       <created>1575710972994</created>
@@ -214,17 +334,24 @@
       <option name="project" value="LOCAL" />
       <updated>1575715544606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="提交新增">
+      <created>1575794626140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575794626140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13997000" />
+    <option name="totallyTimeSpent" value="23876000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="167" y="163" width="1402" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19299553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -233,7 +360,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32769832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32721713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -271,9 +398,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sdfs" />
     <MESSAGE value="提交线程状态代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交线程状态代码" />
+    <MESSAGE value="提交新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交新增" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://D:/develop/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test01/ThreadState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -297,8 +432,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="342">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/msb/han/juc/test02/T07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
