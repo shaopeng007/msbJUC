@@ -1,4 +1,4 @@
-package com.msb.han.juc.test02;
+package com.msb.han.juc.t02Sync;
 
 /**
  * 同步方法和非同步方法可不可以同时调用

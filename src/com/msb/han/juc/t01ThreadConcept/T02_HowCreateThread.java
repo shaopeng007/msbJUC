@@ -1,4 +1,4 @@
-package com.msb.han.juc.test01;
+package com.msb.han.juc.t01ThreadConcept;
 /*
 * 创建线程的方式
 * 继承Thread类

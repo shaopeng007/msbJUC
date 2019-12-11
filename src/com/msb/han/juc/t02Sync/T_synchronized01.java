@@ -1,4 +1,4 @@
-package com.msb.han.juc.test02;
+package com.msb.han.juc.t02Sync;
 
 /**
  * synchronized　关键字

@@ -1,4 +1,4 @@
-package com.msb.han.juc.test03;
+package com.msb.han.juc.t03Volatile;
 //双重检查单例，线程安全
 public class Single_Double_Check {
 
@@ -9,7 +9,7 @@ public class Single_Double_Check {
 
     };
 
-    public Single_Double_Check getInstance(){
+    public static Single_Double_Check getInstance(){
         if (INSTANCE==null){
             //双重检查
          synchronized (Single_Double_Check.class){
@@ -34,8 +34,10 @@ public class Single_Double_Check {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i < ; i++) {
-
+        for (int i = 0; i < 100; i++) {
+            new Thread(()->{
+                System.out.println(Single_Double_Check.getInstance().hashCode());
+            }).start();
         }
     }
 }

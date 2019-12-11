@@ -1,6 +1,4 @@
-package com.msb.han.juc.test03;
-
-import com.msb.han.juc.test02.T03;
+package com.msb.han.juc.t03Volatile;
 
 import java.util.concurrent.TimeUnit;
 
