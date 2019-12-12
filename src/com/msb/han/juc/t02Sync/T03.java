@@ -1,4 +1,4 @@
-package com.msb.han.juc.test02;
+package com.msb.han.juc.t02Sync;
 
 /**
  * 分析一下这个程序的输出
