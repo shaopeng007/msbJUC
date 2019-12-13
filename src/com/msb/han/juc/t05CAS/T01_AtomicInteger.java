@@ -23,6 +23,8 @@ public class T01_AtomicInteger {
             threads.add(new Thread(t::m,"thread:"+i));
         }
 
+
+
         threads.forEach((o)->o.start());
 
         for (Thread o : threads) {
