@@ -96,7 +96,6 @@ public class T08_Phaser {
             @Override
             public void run() {
                 arrive();
-
                 eat();
                 leave();
                 hug();
