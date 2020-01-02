@@ -1,12 +1,16 @@
 package com.msb.han.juc.t10Containers;
 
 
-import java.util.Hashtable;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
-public class T01teatHashTable {
-    static Hashtable<UUID, UUID> m = new Hashtable<>();
-    static int count = Constants.COUNT;
+public class T03testSyncHashMap {
+
+
+    static Map<UUID, UUID> m = Collections.synchronizedMap(new HashMap<UUID, UUID>());
+    static final int count = Constants.COUNT;
     static UUID[] keys = new UUID[count];
     static UUID[] values = new UUID[count];
     static final int THREAD_COUNT = Constants.THREAD_COUNT;
@@ -18,43 +22,50 @@ public class T01teatHashTable {
         }
     }
 
-    static class MyThread extends Thread{
-          int start;
-          int gap=count/THREAD_COUNT;  //每个线程负责装多少
-        public MyThread(int start){this.start=start;}
+
+    static class MyThread extends Thread {
+        int start;
+        int gap = count / THREAD_COUNT;
+
+        public MyThread(int start) {
+            this.start = start;
+        }
 
         @Override
         public void run() {
-            for (int i = start; i <start+gap ; i++) {
-                m.put(keys[i],values[i]);
+            for (int i = start; i < start + gap; i++) {
+                m.put(keys[i], values[i]);
             }
         }
     }
 
+
     public static void main(String[] args) {
-        long start =System.currentTimeMillis();
+         
+       long start=System.currentTimeMillis();
+        
         Thread[] threads=new Thread[THREAD_COUNT];
-        for (int i = 0; i <threads.length ; i++) {
-            threads[i]=new MyThread(i*(count/THREAD_COUNT));
-        }
+
         for (int i = 0; i < threads.length; i++) {
-            threads[i].start();
+            threads[i]=new MyThread(i*(count/THREAD_COUNT));
         }
 
         for (Thread thread : threads) {
+            thread.start();
+        }
 
+        for (Thread thread : threads) {
             try {
                 thread.join();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
         }
         long end=System.currentTimeMillis();
+
         System.out.println(end-start);
         System.out.println(m.size());
-
-        /*-------------------------*/
+/*------------------------------*/
         start = System.currentTimeMillis();
         for (int i = 0; i < threads.length; i++) {
             threads[i] = new Thread(()->{
@@ -78,6 +89,5 @@ public class T01teatHashTable {
 
         end = System.currentTimeMillis();
         System.out.println(end - start);
-
     }
 }
